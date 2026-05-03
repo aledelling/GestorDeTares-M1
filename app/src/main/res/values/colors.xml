@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores base -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Paleta de colores futuristas y tranquilos -->
+    <!-- Color principal: Azul cián suave que transmite tecnología y calma -->
+    <color name="primary">#4FC3F7</color>
+    <color name="primary_dark">#039BE5</color>
+    <color name="primary_light">#B3E5FC</color>
+    
+    <!-- Color de acento: Verde menta que transmite orden y crecimiento -->
+    <color name="accent">#26A69A</color>
+    <color name="accent_light">#80CBC4</color>
+    
+    <!-- Fondos: Gradientes suaves para sensación de espacio y limpieza -->
+    <color name="background_main">#FAFAFA</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_secondary">#F5F7FA</color>
+    
+    <!-- Textos: Grises suaves para evitar contraste agresivo -->
+    <color name="text_primary">#37474F</color>
+    <color name="text_secondary">#78909C</color>
+    <color name="text_hint">#B0BEC5</color>
+    
+    <!-- Estados de tareas -->
+    <color name="task_pending">#FFB74D</color>
+    <color name="task_completed">#81C784</color>
+    <color name="task_completed_background">#E8F5E9</color>
+    
+    <!-- Elementos de UI -->
+    <color name="divider">#ECEFF1</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border">#CFD8DC</color>
 </resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout individual para cada ítem de tarea en el RecyclerView
+    
+    Este diseño muestra:
+    - Un CheckBox para marcar/desmarcar el estado de la tarea
+    - El título de la tarea (texto grande y claro)
+    - La descripción breve (texto más pequeño y secundario)
+    - Un indicador visual del estado (color de fondo cambia según estado)
+    
+    Diseño minimalista con tarjetas limpias y sombras suaves
+-->
+<androidx.cardview.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewTask"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/background_card"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:contentPadding="16dp">
+
+    <!-- Contenedor principal usando ConstraintLayout para posición precisa -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- CheckBox para marcar tarea como completada -->
+        <!-- Permite cambiar el estado de la tarea rápidamente -->
+        <CheckBox
+            android:id="@+id/checkBoxComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/accent"
+            android:contentDescription="@string/content_description_checkbox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Título de la tarea -->
+        <!-- Texto principal que identifica la tarea -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintEnd_toStartOf="@id/viewStatusIndicator"
+            app:layout_constraintStart_toEndOf="@id/checkBoxComplete"
+            app:layout_constraintTop_toTopOf="@id/checkBoxComplete"
+            tools:text="Título de la tarea" />
+
+        <!-- Descripción breve de la tarea -->
+        <!-- Muestra información adicional sobre la tarea -->
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintEnd_toStartOf="@id/viewStatusIndicator"
+            app:layout_constraintStart_toEndOf="@id/checkBoxComplete"
+            app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+            tools:text="Descripción breve de la tarea" />
+
+        <!-- Indicador visual de estado -->
+        <!-- Pequeña vista que cambia de color según el estado de la tarea -->
+        <View
+            android:id="@+id/viewStatusIndicator"
+            android:layout_width="8dp"
+            android:layout_height="0dp"
+            android:background="@drawable/status_indicator_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
