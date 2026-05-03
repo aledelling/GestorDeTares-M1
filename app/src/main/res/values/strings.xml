@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">GestorDeTares-M1</string>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Gestor de Tareas</string>
+    
+    <!-- Pantalla Principal -->
+    <string name="main_title">Mis Tareas</string>
+    <string name="btn_add_task">Nueva Tarea</string>
+    <string name="empty_list_message">No hay tareas registradas.\n¡Agrega tu primera tarea!</string>
+    
+    <!-- Formulario de Tarea -->
+    <string name="form_title_new">Nueva Tarea</string>
+    <string name="form_title_edit">Editar Tarea</string>
+    <string name="hint_task_title">Título de la tarea</string>
+    <string name="hint_task_description">Descripción breve</string>
+    <string name="label_status">Estado</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_completed">Completada</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Eliminar</string>
+    
+    <!-- Mensajes y validaciones -->
+    <string name="error_empty_title">Por favor ingresa un título para la tarea</string>
+    <string name="task_saved_successfully">Tarea guardada exitosamente</string>
+    <string name="task_deleted_successfully">Tarea eliminada</string>
+    <string name="confirm_delete">¿Estás seguro de eliminar esta tarea?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    
+    <!-- Contenido descriptivo para accesibilidad -->
+    <string name="content_description_task_item">Elemento de tarea en la lista</string>
+    <string name="content_description_checkbox">Marcar tarea como completada</string>
+    <string name="content_description_delete_button">Eliminar tarea</string>
 </resources>
