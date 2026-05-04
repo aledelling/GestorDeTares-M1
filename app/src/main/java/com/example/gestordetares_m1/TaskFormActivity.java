@@ -41,6 +41,11 @@ public class TaskFormActivity extends AppCompatActivity {
      */
     public static final String EXTRA_TASK_ID = "task_id";
     
+    /**
+     * Clave para indicar que se debe refrescar la lista de tareas en MainActivity.
+     */
+    public static final String EXTRA_REFRESH_LIST = "refresh_list";
+    
     // ============================================================================
     // ATRIBUTOS DE LA ACTIVIDAD
     // ============================================================================
