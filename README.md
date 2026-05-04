@@ -8,7 +8,7 @@
 
 ## 👤 Información del Estudiante
 
-**Nombre completo:** [Tu Nombre Completo Aquí]
+**Nombre completo:** Jhon Alejandro Diaz Jimenez
 
 **Fecha de entrega:** 06 de Mayo de 2024
 
@@ -48,25 +48,6 @@ Tabla `tareas` con la siguiente estructura:
 - Adapter personalizado con patrón ViewHolder
 - Optimización de recursos en pantalla
 - Actualizaciones eficientes de ítems individuales
-
----
-
-## 📸 Capturas de Pantalla
-
-### Lista de Tareas
-<!-- Reemplaza estas rutas con las capturas reales de tu aplicación -->
-![Lista de Tareas](screenshots/lista_tareas.png)
-*Vista principal mostrando la lista de tareas con indicador de estado*
-
-### Formulario de Nueva Tarea
-<!-- Reemplaza estas rutas con las capturas reales de tu aplicación -->
-![Formulario](screenshots/formulario_tarea.png)
-*Pantalla de creación/edición de tareas*
-
-> **Nota:** Para agregar las capturas de pantalla:
-> 1. Ejecuta la aplicación en un emulador o dispositivo
-> 2. Toma capturas de la lista de tareas y del formulario
-> 3. Guárdalas en la carpeta `screenshots/` con los nombres indicados
 
 ---
 
@@ -157,19 +138,3 @@ implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 Este proyecto fue desarrollado con fines educativos como parte de un reto académico.
 
 ---
-
-## 📞 Contacto
-
-**Estudiante:** [Tu Nombre Completo]  
-**Email:** [tu.email@ejemplo.com]  
-**Repositorio GitHub:** [github.com/tu-usuario/GestorDeTares-M1](https://github.com/tu-usuario/GestorDeTares-M1)
-
----
-
-<div align="center">
-
-**Desarrollado con ❤️ para el reto de Gestor de Tareas**
-
-*Fecha de última actualización: Mayo 2024*
-
-</div>
