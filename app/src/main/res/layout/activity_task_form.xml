@@ -125,9 +125,7 @@
                 android:id="@+id/switchStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false"
-                android:thumbTint="@color/accent"
-                android:trackTint="@color/accent_light" />
+                android:checked="false" />
 
         </LinearLayout>
 

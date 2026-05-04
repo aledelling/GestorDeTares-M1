@@ -69,7 +69,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
          * @param position La posición en la lista
          * @param isChecked El nuevo estado (true=completada, false=pendiente)
          */
-        onTaskStatusChange(Task task, int position, boolean isChecked);
+        void onTaskStatusChange(Task task, int position, boolean isChecked);
     }
     
     // ============================================================================
