@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores base para modo oscuro -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Paleta de colores futuristas para modo oscuro -->
+    <!-- Color principal: Azul cián más brillante para contraste en oscuro -->
+    <color name="primary">#4FC3F7</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    
+    <!-- Color de acento: Verde menta ajustado para modo oscuro -->
+    <color name="accent">#26A69A</color>
+    <color name="accent_light">#80CBC4</color>
+    
+    <!-- Fondos: Oscuros para reducir fatiga visual -->
+    <color name="background_main">#121212</color>
+    <color name="background_card">#1E1E1E</color>
+    <color name="background_secondary">#2C2C2C</color>
+    
+    <!-- Textos: Claros para buen contraste sobre fondo oscuro -->
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="text_hint">#78909C</color>
+    
+    <!-- Estados de tareas (ajustados para modo oscuro) -->
+    <color name="task_pending">#FFB74D</color>
+    <color name="task_completed">#81C784</color>
+    <color name="task_completed_background">#1B3A1B</color>
+    
+    <!-- Elementos de UI -->
+    <color name="divider">#424242</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="input_background">#2C2C2C</color>
+    <color name="input_border">#546E7A</color>
+</resources>

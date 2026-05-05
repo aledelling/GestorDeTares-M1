@@ -34,6 +34,7 @@ La aplicación utiliza **SQLite** para la persistencia local de datos, implement
 - **Pantalla de Creación/Edición**: Formulario completo con validaciones
 - **Diseño de Ítems**: CardView personalizado con indicador visual de estado
 - **Diseño Minimalista**: Colores futuristas que transmiten tranquilidad y orden
+- **✨ Modo Oscuro**: Soporte completo para tema oscuro automático del sistema
 
 ### Persistencia de Datos (SQLite)
 Tabla `tareas` con la siguiente estructura:
@@ -84,6 +85,7 @@ app/src/main/
 
 La aplicación utiliza un diseño minimalista con colores futuristas:
 
+### Modo Claro (Light Mode)
 | Color | Uso | Hex |
 |-------|-----|-----|
 | Azul Cián | Color principal | `#4FC3F7` |
@@ -91,6 +93,19 @@ La aplicación utiliza un diseño minimalista con colores futuristas:
 | Gris Suave | Textos secundarios | `#78909C` |
 | Naranja | Tareas pendientes | `#FFB74D` |
 | Blanco | Fondos de tarjetas | `#FFFFFF` |
+| Gris Muy Claro | Fondo principal | `#FAFAFA` |
+
+### Modo Oscuro (Dark Mode) ✨
+| Color | Uso | Hex |
+|-------|-----|-----|
+| Azul Cián | Color principal | `#4FC3F7` |
+| Verde Menta | Acento y completadas | `#26A69A` |
+| Gris Claro | Textos secundarios | `#B0BEC5` |
+| Naranja | Tareas pendientes | `#FFB74D` |
+| Gris Oscuro | Fondos de tarjetas | `#1E1E1E` |
+| Negro Suave | Fondo principal | `#121212` |
+
+**Nota:** La aplicación soporta **modo oscuro automático** siguiendo la configuración del sistema Android.
 
 ---
 
