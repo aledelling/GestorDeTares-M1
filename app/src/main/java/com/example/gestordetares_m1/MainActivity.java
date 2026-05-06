@@ -3,11 +3,13 @@ package com.example.gestordetares_m1;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -91,6 +93,11 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
      */
     private FloatingActionButton fabAddTask;
     
+    /**
+     * Botón para cambiar entre modo claro y oscuro.
+     */
+    private ImageButton btnToggleTheme;
+    
     // ============================================================================
     // CICLO DE VIDA DE LA ACTIVIDAD
     // ============================================================================
@@ -153,6 +160,9 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
         
         // Obtenemos referencia al botón flotante
         fabAddTask = findViewById(R.id.fabAddTask);
+        
+        // Obtenemos referencia al botón de cambio de tema
+        btnToggleTheme = findViewById(R.id.btnToggleTheme);
     }
     
     /**
@@ -180,6 +190,25 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
     private void setupClickListeners() {
         // Listener para el botón flotante de agregar tarea
         fabAddTask.setOnClickListener(v -> openTaskForm(-1));
+        
+        // Listener para el botón de cambio de tema
+        btnToggleTheme.setOnClickListener(v -> toggleTheme());
+    }
+    
+    /**
+     * Alterna entre modo claro y oscuro.
+     * Guarda la preferencia del usuario en SharedPreferences.
+     */
+    private void toggleTheme() {
+        int currentNightMode = getResources().getConfiguration().uiMode & android.content.res.Configuration.UI_MODE_NIGHT_MASK;
+        
+        if (currentNightMode == android.content.res.Configuration.UI_MODE_NIGHT_YES) {
+            // Si está en modo oscuro, cambiamos a modo claro
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        } else {
+            // Si está en modo claro, cambiamos a modo oscuro
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        }
     }
     
     // ============================================================================

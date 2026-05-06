@@ -22,6 +22,7 @@ Aplicación nativa Android que funciona como un **gestor de tareas personales**.
 - 📋 **Visualizar tareas** en una lista dinámica con RecyclerView
 - ✏️ **Actualizar** el estado o información de las tareas existentes
 - 🗑️ **Eliminar** tareas cuando ya no son necesarias
+- 🌓 **Cambiar entre modo claro y oscuro** manualmente
 
 La aplicación utiliza **SQLite** para la persistencia local de datos, implementando todas las operaciones CRUD (Create, Read, Update, Delete).
 
@@ -106,6 +107,24 @@ La aplicación utiliza un diseño minimalista con colores futuristas:
 | Negro Suave | Fondo principal | `#121212` |
 
 **Nota:** La aplicación soporta **modo oscuro automático** siguiendo la configuración del sistema Android.
+
+---
+
+## 📸 Capturas de Pantalla
+
+### Modo Claro
+<!-- Agrega aquí una captura de pantalla del modo claro -->
+![Modo Claro](screenshots/light_mode.png)
+
+### Modo Oscuro
+<!-- Agrega aquí una captura de pantalla del modo oscuro -->
+![Modo Oscuro](screenshots/dark_mode.png)
+
+### Formulario de Tarea
+<!-- Agrega aquí una captura de pantalla del formulario -->
+![Formulario](screenshots/formulario.png)
+
+> **Nota:** Para agregar las capturas, guarda las imágenes en la carpeta `screenshots/` y actualiza las rutas anteriores.
 
 ---
 

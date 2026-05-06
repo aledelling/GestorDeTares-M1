@@ -82,4 +82,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Botón para cambiar entre modo claro y oscuro -->
+    <!-- Permite al usuario alternar manualmente entre temas -->
+    <ImageButton
+        android:id="@+id/btnToggleTheme"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/toggle_theme"
+        android:src="@android:drawable/ic_menu_day_night"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/text_primary" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
