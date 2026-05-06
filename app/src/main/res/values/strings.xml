@@ -31,4 +31,7 @@
     <string name="content_description_task_item">Elemento de tarea en la lista</string>
     <string name="content_description_checkbox">Marcar tarea como completada</string>
     <string name="content_description_delete_button">Eliminar tarea</string>
+    
+    <!-- Botón de cambio de tema -->
+    <string name="toggle_theme">Cambiar tema claro/oscuro</string>
 </resources>
