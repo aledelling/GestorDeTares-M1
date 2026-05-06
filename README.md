@@ -124,7 +124,6 @@ La aplicación utiliza un diseño minimalista con colores futuristas:
 <!-- Agrega aquí una captura de pantalla del formulario -->
 ![Formulario](screenshots/formulario.png)
 
-> **Nota:** Para agregar las capturas, guarda las imágenes en la carpeta `screenshots/` y actualiza las rutas anteriores.
 
 ---
 
