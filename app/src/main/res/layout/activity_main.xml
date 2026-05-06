@@ -92,7 +92,7 @@
         android:layout_marginEnd="16dp"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:contentDescription="@string/toggle_theme"
-        android:src="@android:drawable/ic_menu_day_night"
+        android:src="@drawable/ic_menu_day_night"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/text_primary" />

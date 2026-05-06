@@ -1,76 +1,54 @@
-# Android build artifacts
-*.apk
-*.aar
-*.jar
-*.dex
-*.so
-*.dylib
-*.dll
+```xml
+# Generated build files
+app/build/
+app/src/main/res/generated/
 
-# Android dependency directories
-build/
+# Gradle
 .gradle/
+build/
+*.gradle
+
+# Local configuration file (sdk path, etc)
 local.properties
 
-# Android studio files
-.idea/
-*.iml
-*.iws
+# Log Files
 *.log
 
-# Compiled resources
-app/build/
+# Android Studio Navigation editor temp files
+.navigation/
 
-# Environment variables
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Contains various paths for built variants
+.path
+
+# If you're using Android NDK
+*.so
+*.dll
+*.a
+
+# IntelliJ IDEA artifacts
+*.iml
+*.iws
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Environment files
 .env
 .env.local
 *.env.*
-
-# Python related (if any Python in project)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-htmlcov/
-.coverage.*
-.cache
-.pytest_cache/
-.mypy_cache/
-
-# Node.js related (if any JavaScript in project)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE related
-.vscode/
-*.swp
-*.swo
-*.tmp
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-*.log
 
 # Coverage reports
 coverage/
 *.gcov
 *.lcov
-*.info
 
-# Distribution artifacts
-dist/
-target/
-out/
+# MyPy cache
+.mypy_cache/
+.mypy_cache/*
+```
